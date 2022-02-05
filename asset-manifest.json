@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/robinpx.github.io/static/css/main.bea5323b.css",
+    "main.js": "/robinpx.github.io/static/js/main.6c05c7e6.js",
+    "static/js/787.926a1e5e.chunk.js": "/robinpx.github.io/static/js/787.926a1e5e.chunk.js",
+    "index.html": "/robinpx.github.io/index.html",
+    "main.bea5323b.css.map": "/robinpx.github.io/static/css/main.bea5323b.css.map",
+    "main.6c05c7e6.js.map": "/robinpx.github.io/static/js/main.6c05c7e6.js.map",
+    "787.926a1e5e.chunk.js.map": "/robinpx.github.io/static/js/787.926a1e5e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bea5323b.css",
+    "static/js/main.6c05c7e6.js"
+  ]
+}
