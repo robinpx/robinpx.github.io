@@ -1,0 +1,27 @@
+.post-container {
+    position:relative;
+    padding-bottom:3em;
+}
+
+.post-section {
+    margin:1em 0;
+    padding:1em 0;
+}
+
+.post-column {
+    width:33.33333%;
+    display:inline-block;
+    vertical-align:top;
+}
+
+.tags div {
+    margin-right:2em;
+}
+
+.tags div {
+    display:inline-block;
+}
+
+.tags {
+    font-size:0.9em;
+}

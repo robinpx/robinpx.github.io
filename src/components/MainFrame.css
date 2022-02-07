@@ -1,0 +1,107 @@
+#main-frame {
+    margin-top:1em;
+    min-height:100vh;
+    animation:load-in 1s linear;
+}
+
+#main-frame h3 {
+    color:#555;
+    margin-top:0;
+    margin-bottom:0.75em;
+    font-size:1.1em;
+    line-height:normal;
+    display:inline-block;
+}
+
+#main-frame h3 .title {
+    color:black;
+}
+
+#main-frame aside, #main-frame #frame {
+    display:inline-block;
+    vertical-align:top;
+}
+
+#main-frame aside {
+    width:calc(32% + 2em);
+    height:auto;
+    position:fixed;
+    z-index:99;
+    margin-bottom:2em;
+}
+
+#main-frame aside .label {
+    cursor:pointer;
+}
+
+#main-frame #frame {
+    width:60%;
+    float:right;
+}
+
+#main-frame .showing h4 {
+    font-weight:500;
+}
+
+#main-arrows {
+    width:100%;
+    position:relative;
+    clear:both;
+}
+
+#main-left-arrow,#main-right-arrow {
+   margin:1em 0;
+   cursor:pointer;
+   z-index:9999;
+}
+
+#main-left-arrow {
+    width:30%;
+    float:left;
+}
+
+#main-right-arrow {
+    width:30%;
+    text-align:right;
+    float:right;
+}
+
+.line {
+    width:calc(50% - 1em);
+    height:1px;
+    display:inline-block;
+    vertical-align:middle;
+    background:black;
+}
+
+.box {
+    width:1em;
+    display:inline-block;
+    vertical-align:middle;
+    border:1px solid black;
+    height:1em;
+}
+
+.arrow-left {
+    margin-right:-1em;
+    border-top-left-radius:100%;
+    border-bottom-left-radius:100%;
+    border-right:0;
+}
+
+.arrow-right {
+    margin-left:-1em;
+    border-top-right-radius:100%;
+    border-bottom-right-radius:100%;
+    border-left:0;
+}
+
+@media screen and (max-width: 992px) {
+    #main-frame aside, #main-frame #frame {
+        display:block;
+        width:100%;
+        position:relative;
+        height:auto;
+    }
+  }
+  
