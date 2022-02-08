@@ -7,6 +7,7 @@ import './MainFrame.css';
 function MainFrame(props) {
 
   const [posts, setPosts] = useState(-1);
+  const [kind, setKind] = useState(-1);
   const [currentPost, setCurrentPost] = useState(0);
 
   const showPost = (ind) => setCurrentPost(ind);
@@ -21,13 +22,18 @@ function MainFrame(props) {
   }
   
   useEffect(()=>{
-    if (posts === -1) {
+    if (kind !== props.kind) {
+      setKind(-1);
+      setPosts(-1);
+    }
+    if (posts === -1 && kind === -1) {
       let p = props.kind === "code" ? codePosts : artPosts;
+      setKind(props.kind);
       setPosts(p);
     }
-  }, [posts, props]);
+  }, [posts, kind, props]);
 
-  return posts !== -1 ? (
+  return (posts !== -1) ? (
   <div id="main-frame">
   <aside>
     {posts.map((item, i) => {
@@ -36,7 +42,7 @@ function MainFrame(props) {
   </aside>
   
   <div id="frame">
-    <Post post={posts[currentPost]} />
+    <Post post={posts[currentPost]} key={currentPost} />
   </div>
 
   {posts.length !== 1 ? 

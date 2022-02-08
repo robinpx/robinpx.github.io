@@ -4,7 +4,7 @@ let artPosts = [
         title: "Nonsensical",
         year: "2021",
         images: ["/art/nonsensical.png"],
-        desc: ["Issue #6 Poster"],
+        desc: ["Issue #5 Poster"],
         tags: [],
         genre: ["graphic design"],
         links: [["https://nonsensical.org/", "Website"]],
@@ -12,7 +12,7 @@ let artPosts = [
     },
     {
         id: "bw",
-        title: "Variance",
+        title: "Untitled #1",
         year: "2019-2021",
         images: ["/art/bw0.jpeg", "/art/bw1.png", "/art/bw2.jpg","/art/bw3.jpg"],
         desc: ["In My Lens"],

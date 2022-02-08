@@ -19,7 +19,7 @@ class MorseBanner extends Component {
 
         p5.setup = () => {
             if (p5.windowWidth < p5.windowHeight) {
-                p5.resizeCanvas(p5.windowWidth-20,500);
+                p5.resizeCanvas(p5.windowWidth-30,500);
             }
             else {
                 p5.resizeCanvas(p5.windowWidth*0.7,500);

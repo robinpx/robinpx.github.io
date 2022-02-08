@@ -108,8 +108,18 @@ nav a:hover, nav > .active {
   border-bottom:1px solid black;
 }
 
+.post-container, article, aside {
+  animation:load-in 0.6s linear;
+}
+
+#main-arrows {
+  opacity:0;
+  animation:load-in 0.3s linear forwards 0.7s;
+}
+
 #banner {
   margin-top:0em;
+  max-height:calc(100vh - 15vh - 4em - 5em);
   margin-left:-0.5em;
 }
 
@@ -152,10 +162,12 @@ footer {
 @keyframes load-in {
   0% {
     opacity:0;
+    transform:translateY(0.5em);
   }
 
   100% {
     opacity:1;
+    transform:translateY(0);
   }
   
 }

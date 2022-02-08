@@ -14,10 +14,10 @@ function App() {
       <Header />
       <div id="content">
       <Routes>
-        <Route index element={<Index />} />
-        <Route path="/code" element={<MainFrame kind="code" />} />
-        <Route path="/art" element={<MainFrame kind="art" />} />
-        <Route path="/profile" element={<Profile />} />
+        <Route exact path="/" element={<Index />} />
+        <Route exact path="/code" element={<MainFrame kind="code" />} />
+        <Route exact path="/art" element={<MainFrame kind="art" />} />
+        <Route exact path="/profile" element={<Profile />} />
       </Routes>
       </div>
       <Footer />

@@ -1,7 +1,6 @@
 #main-frame {
     margin-top:1em;
     min-height:100vh;
-    animation:load-in 1s linear;
 }
 
 #main-frame h3 {
