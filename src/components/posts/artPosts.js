@@ -1,5 +1,16 @@
 let artPosts = [
     {
+        id: "",
+        title: "Rooted Observations",
+        year: "2022",
+        images: ["/art/root.JPG","/art/root-2.JPG", "/art/root-3.JPG", "/art/root-4.JPG"],
+        desc: ["In My Lens", "Intertwined contrasts of held and rooted elements, reaching and caressing light"],
+        tags: [],
+        genre: ["photography"],
+        links: [],
+        slidelayout: true
+    },
+    {
         id: "nonsensical",
         title: "Nonsensical",
         year: "2021",

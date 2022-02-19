@@ -20,11 +20,11 @@ function Post(props) {
       <div className='post-column year'>
         <div className='dot'></div> {post["year"]}
       </div>
-      <div className='post-column links'>
+      {post["links"].length !== 0 ? <div className='post-column links'>
       {post["links"].map((l,i) => {
             return <div><a href={l[0]} key={i}>{l[1]}</a></div>
         })}
-      </div>
+      </div> : <React.Fragment/>}
       <div className="post-column">
       <div className="genre">{post["genre"]}</div>
       <div className="tags">

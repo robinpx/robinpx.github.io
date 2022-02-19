@@ -177,4 +177,14 @@ footer {
     padding-left:1em;
     padding-right:1em;
   }
+
+  .post-column {
+    width:100%!important;
+  }
+
+  .year, .links, .genre {
+    margin-bottom:1em;
+    padding-bottom:1em;
+    border-bottom:1px solid #eee;
+  }
 }

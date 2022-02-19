@@ -44,7 +44,7 @@ let codePosts = [
         title: "AuxNow",
         year: "2020",
         images: ["/code/auxnow.png", "/code/auxnow-2.png", "/code/auxnow-3.png",
-        "/code/auxnow-4.png", "/code/auxnow-5.png", "/code/auxnow-6.png"],
+        "/code/auxnow-4.png", "/code/auxnow-5.png", "/code/auxnow-6.png","/code/auxnow-7.png","/code/auxnow-8.png"],
         desc: ["Spotify Playlist Maker Web App", 
         "AuxNow is a full stack web application to make playlists based off genre, recommendations, and audio features made during Fall 2020 in my spare time between classes. This project is the manifestation of teaching myself the basics of React and Node."],
         genre: ["full stack"],

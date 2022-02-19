@@ -3,8 +3,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Header from './components/Header';
 import Index from './components/Index';
-import MainFrame from './components/MainFrame';
-import Profile from './components/Profile';
 import Footer from './components/Footer';
 
 function App() {
@@ -14,10 +12,7 @@ function App() {
       <Header />
       <div id="content">
       <Routes>
-        <Route exact path="/" element={<Index />} />
-        <Route exact path="/code" element={<MainFrame kind="code" />} />
-        <Route exact path="/art" element={<MainFrame kind="art" />} />
-        <Route exact path="/profile" element={<Profile />} />
+        <Route index element={<Index />} />
       </Routes>
       </div>
       <Footer />

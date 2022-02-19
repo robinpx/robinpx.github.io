@@ -4,7 +4,7 @@ function Footer() {
 
     return (
 	<footer>
-	last updated: January 2022
+	last updated: February 2022
 	</footer>
     );
 }
