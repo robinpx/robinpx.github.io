@@ -33,7 +33,7 @@ let codePosts = [
         images: ["https://i.imgur.com/LIXY5Qs.jpg", "https://i.imgur.com/R0CSiM5.jpg", "https://i.imgur.com/TUoeGhQ.jpg"],
         desc: ["Sentient Home Devices",
         "Unfamiliar Convenient reflects how home devices serve in our intimate spaces and studies a relationship between a voice assistant, a vacuum cleaner, and other technologies. ", 
-        "I implemented the roomba vaccuum cleaner's initialization by scraping GPS serial data with Arduino programming language at a certain signal-to-ratio threshold, and a Settings GUI with Flask to allow flexibility in mapping the roomba to its environment."],
+        "I implemented the roomba vaccuum cleaner's initialization by scraping GPS serial data with Arduino programming language to extract certain signal-to-ratio threshold for the roomba to start, and a Settings GUI with Flask to allow flexibility in mapping the roomba's word map to its environment."],
         genre: ["media art"],
         tags: ["Home devices", "Voice Assistant", "Arduino", "Flask", "Python"],
         links: [["https://vjnks.com/works/unfamiliar-convenient-46", "Full Documentation"],["https://github.com/robinpx/chronus","GitHub"], ["https://vimeo.com/641369896?embedded=true&source=vimeo_logo&owner=17016014", "Vimeo"]],
@@ -58,7 +58,7 @@ let codePosts = [
         year: "2020",
         images: ["/code/dataverses.jpg"],
         desc: ["Nonsense Poems with Cooper Hewitt API",
-        "dataverses is a project born from expanding a simple API exercise for class. It creates poems with Cooper Hewitt's design catalogue and its API data and forming silly poems inspired by Gertrude Stein. The poems are created with simple ML implementations of the spaCY library and the color naming is produced from using kmeans and a nearest color algorithm. The main clustered colors are shown on the top bar and sporadically within the poems."],
+        "dataverses is a project born from expanding a simple API exercise for class. It creates poems with Cooper Hewitt's design catalogue and its API data and forming silly poems inspired by Gertrude Stein. The poems are created with simple ML implementations of the spaCy library and the color naming is produced from using kmeans and a nearest color algorithm. The main clustered colors are shown on the top bar and sporadically within the poems."],
         genre: ["flask app"],
         tags: ["Flask", "Python", "API", "HTML/CSS", "numpy", "spaCy", "scikit-learn", "Responsive"],
         links: [["https://github.com/robinpx/dataverses", "GitHub"]],
@@ -72,7 +72,7 @@ let codePosts = [
         desc: ["Tumblr Audio Player",
         "Tumblr Boombox is a client-side web app that plays every audio post on a Tumblr user's blog that I made in a few days over March 2018. It is an accumulation of my occassional self-taught HTML/CSS, JavaScript, and jQuery skills I had been working on since 2016."],
         genre: ["front end"],
-        tags: ["jQuery", "HTML/CSS", "JavaScript", "Responsive"],
+        tags: ["jQuery", "HTML/CSS", "JavaScript", "Tumblr API","Responsive"],
         links: [["https://github.com/robinpx/boombox", "GitHub"], ["https://robinpx.github.io/boombox", "Live"]],
         slidelayout: false
     }

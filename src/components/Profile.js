@@ -20,7 +20,7 @@ function Profile() {
                 <p>
                     <a href="https://wp.nyu.edu/criticalsonicpracticelab/critical-sonic-practice-symposium-elegy/">NYU Critical Sonic Practice Symposium: Elegy</a> &mdash; Graphic Design 
                     &mdash; March 2021.<br/>
-                    Cosmic Ambience, 2019 &mdash; Audiovisual Art<br></br>
+                   <a href="https://github.com/robinpx/cosmic-ambience">Cosmic Ambience, 2019</a> &mdash; Audiovisual Art<br></br>
                     Tea for Two, 2019 &mdash; Performance Art<br></br>
                     mayfly, 2018 &mdash; Interactive Video Art
                 </p>

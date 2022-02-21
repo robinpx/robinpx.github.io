@@ -15,7 +15,7 @@ function Header() {
     else if (windowlink.includes("/?art") > 0) {
       setActive(["","active",""])
     }
-  });
+  }, [setActive]);
 
   return (
     <header>
