@@ -32,7 +32,7 @@ function Profile() {
                     &mdash; March 2021.</li>
                     <li><b><a href="https://github.com/robinpx/cosmic-ambience">Cosmic Ambience</a></b> &mdash; Audiovisual Art</li>
                     <li><b>Tea for Two</b> &mdash; Performance Art</li>
-                    <li><b>2663</b> &mdash; VR Haptics Research, Performance</li>
+                    <li><b>2663</b> &mdash; VR Haptics Research, Performance. Supervised by Michael Naimark.</li>
                     <li><b>mayfly</b> &mdash; Interactive Video Art</li>
                 </ul>
                 </div>
