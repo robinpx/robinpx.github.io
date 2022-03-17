@@ -5,7 +5,7 @@ function Footer() {
     return (
 	<footer>
 	<div><a href="https://github.com/robinpx">GitHub</a></div>
-	<div>last updated: February 2022 </div>
+	<div>last updated: March 2022 </div>
 	</footer>
     );
 }

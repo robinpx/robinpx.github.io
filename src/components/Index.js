@@ -1,6 +1,7 @@
 import React from 'react';
 import MorseBanner from './layouts/MorseBanner';
 import MainFrame from './MainFrame';
+import Lab from './Lab';
 import Profile from './Profile';
 
 function Index() {
@@ -20,6 +21,11 @@ function Index() {
   else if (windowlink.includes("/?art") > 0) {
     return (
       <MainFrame kind="art" />
+    );
+  }
+  else if (windowlink.includes("/?lab") > 0) {
+    return (
+      <Lab />
     );
   }
   return (

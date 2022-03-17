@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans&family=Public+Sans&family=IBM+Plex+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans&family=Roboto&family=IBM+Plex+Mono:wght@300&display=swap');
  
 * {
   box-sizing:border-box;
@@ -10,8 +10,8 @@ body {
   font-family:"Helvetica Neue", monospace;
   font-weight:400;
   line-height:170%;
-  color:#777;
-  font-size:calc(9px + 1vmin);
+  color:#333;
+  font-size:calc(7.5px + 1.1vmin);
   cursor:crosshair;
 }
 
@@ -64,7 +64,6 @@ h3 {
   font-size:1.25em;
   line-height:120%;
   font-weight:500;
-  margin-top:1.5em;
   font-family:"Pontano Sans";
 }
 
@@ -84,6 +83,10 @@ header {
   position:fixed;
   width:100%;
   z-index:9999;
+}
+
+b {
+  font-weight:500;
 }
 
 #title, nav {
@@ -123,8 +126,52 @@ nav a:hover, nav > .active {
   margin-left:-0.5em;
 }
 
+blockquote {
+  font-size:1.1em;
+  font-style:italic;
+  padding-left:2em;
+  color:#777;
+  font-family:'Pontano Sans', Arial, Helvetica, sans-serif;
+}
+
 article {
   padding:1em 0em;
+}
+
+#profile {
+  max-width:90%;
+}
+
+#profile .block {
+  display:inline-block;
+  vertical-align:top;
+  margin-bottom:3em;
+}
+
+#profile .block:first-child {
+  max-width:calc(60% - 3em);
+  margin-right:3em;
+}
+
+#profile .block:nth-child(2) {
+  max-width:40%;
+}
+
+#profile ul {
+  font-size:0.9em;
+  margin-left:1em;
+  list-style:none;
+  margin:0;
+  margin-top:0.5em;
+  margin-bottom:2em;
+}
+
+#profile ul li:before {
+  content:"■";
+  font-size:1.25em;
+  color: #000;
+  margin-right:0.4em;
+  vertical-align:top;
 }
 
 #content {
@@ -178,12 +225,13 @@ footer div {
 }
 
 @media screen and (max-width: 992px) { 
+
   #content,header,footer {
     padding-left:1em;
     padding-right:1em;
   }
 
-  .post-column {
+  .post-column, #profile {
     width:100%!important;
   }
 
@@ -192,4 +240,12 @@ footer div {
     padding-bottom:1em;
     border-bottom:1px solid #eee;
   }
+
+  #profile, #profile .block {
+    max-width:100%;
+    width:100%;
+    min-width:100%;
+    display:block;
+  }
+
 }

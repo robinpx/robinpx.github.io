@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Slideshow from './layouts/Slideshow';
+import { Markup } from 'interweave';
 import "./Post.css";
 
 function Post(props) {
@@ -35,7 +36,7 @@ function Post(props) {
       </div>
     </div>
     {post["desc"].map((det, i) => {
-      return i > 0 ? <article key={i}>{det}</article> : <React.Fragment/>
+      return i > 0 ? <article key={i}><Markup content={det}/></article> : <React.Fragment/>
     })}
     </div>
   ) : <React.Fragment/>;

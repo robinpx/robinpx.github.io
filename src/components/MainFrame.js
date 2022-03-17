@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import codePosts from './posts/codePosts';
 import artPosts from './posts/artPosts';
 import Post from './Post';
 import './MainFrame.css';
+import codePosts from './posts/codePosts';
 
 function MainFrame(props) {
 
@@ -27,7 +27,7 @@ function MainFrame(props) {
       setPosts(-1);
     }
     if (posts === -1 && kind === -1) {
-      let p = props.kind === "code" ? codePosts : artPosts;
+      let p = props.kind === "code" ?  codePosts : artPosts;
       setKind(props.kind);
       setPosts(p);
     }
@@ -37,6 +37,9 @@ function MainFrame(props) {
   <div id="main-frame">
   <aside>
     {posts.map((item, i) => {
+      if (item["id"].includes("1") > 0 && item["id"].includes("a") <= 0) {
+        return <React.Fragment><br></br><div className={"label" + (currentPost === i ? " showing" : "")} key={"label-"+i} onClick={() => showPost(i)}><h3>{currentPost === i ? <div className="dot"></div> : ""} <span className="title">{item["title"]}</span> &mdash; {item["desc"][0]}</h3></div></React.Fragment>
+      }
       return <div className={"label" + (currentPost === i ? " showing" : "")} key={"label-"+i} onClick={() => showPost(i)}><h3>{currentPost === i ? <div className="dot"></div> : ""} <span className="title">{item["title"]}</span> &mdash; {item["desc"][0]}</h3></div>
     })}
   </aside>
