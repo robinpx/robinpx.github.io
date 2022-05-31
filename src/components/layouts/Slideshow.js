@@ -15,15 +15,6 @@ function Slideshow(props) {
     }
   }
 
-  const prevSlide = () => {
-    if (currentInd - 1 > -1) {
-        setCurrentInd(currentInd-1);
-    }
-    else {
-        setCurrentInd(images.length-1);
-    }
-}
-
   useEffect(()=> {
       if (images === -1 || images !== props.images) {
           setImages(props.images);
@@ -31,31 +22,23 @@ function Slideshow(props) {
       }
   }, [images, setImages, props.images]);
 
-  if (props.isClickable) {
+  if (props.layout !== "visible" && images.length > 1) {
     return images !== -1 ? (
-        <div id="slideshow">
-            {images.length !== 1 ? 
-            <div id="left-arrow" onClick={() => prevSlide()}>
-            </div> : <React.Fragment />}
-            <div id="slides">
+        <div id="slideshow" className={"multi " + props.layout}>
+            <div id="slides" onClick={nextSlide}>
                 {images.map((img, i) => {
                     return currentInd === i ? 
                     <div key={i} className='slide show'><img src={img} alt={"slide-"+i} /></div>
                     : <div key={i} className='slide hide'><img src={img} alt={"slide-"+i} /></div>
                 })}
             </div>
-            {images.length !== 1 ? 
-            <div id="right-arrow" onClick={() => nextSlide()}>
-            </div> : <React.Fragment/>}
-        
-            
         </div>
     )  : <React.Fragment />;
   }
   else {
     return images !== -1 ? (
-        <div id="slideshow">
-            <div id="cards">
+        <div id="slideshow" className={props.layout}>
+            <div id="slides">
             {images.map((img, i) => {
                 return <div key={i} className='slide'><img src={img} alt={"slide-"+i} /></div>
             })}

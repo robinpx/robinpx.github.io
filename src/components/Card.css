@@ -1,0 +1,117 @@
+#cards {
+    /* overflow:scroll;
+    position:fixed;
+    height:100vh; */
+    padding-bottom:4em;
+    z-index:-1;
+    transition:0.5s;
+    text-align:center;
+}
+
+/* #cards:first-child {
+    width:100%;
+    padding-right:calc(50% + 2.5em);
+} */
+
+#cards .card-container {
+    padding:1em 1em 1.5em 1em;
+    border-bottom:1px solid #ccc;
+}
+
+.single .info, .single-7 .info {
+    font-size:0.8em;
+    margin-top:1em;
+}
+
+.info .tags {
+    font-size:0.85em;
+    margin-right:1em;
+}
+
+.info .tags, .info a {
+    display:inline-block;
+}
+
+.single .info a, .single-7 .info a {
+    margin-left:1em;
+}
+
+/* 
+#cards:last-child {
+    border-left:1px solid black;
+    margin-top:0.25em;
+    padding-right:calc(4em);
+    width:calc(55% + 2em);
+    margin-left:calc(50% - 2em);
+} */
+
+.single #slideshow, .single-7 #slideshow {
+    margin:0 auto;
+}
+
+.single #slideshow {
+    width:60%;
+}
+
+.single-7 #slideshow {
+    width:40%;
+}
+
+.pair-5-5 {
+    vertical-align:top;
+    display:inline-block;
+}
+
+.pair-5-5 {
+    width:30%;
+}
+
+.card-content {
+    margin-bottom:1em;
+    font-size:0.75em;
+}
+
+.card-content .year, .card-content .genre {
+    margin-left:1em;
+}
+
+.see-all-3 #slideshow, .see-all-2 #slideshow, .see-all-5 #slideshow {
+    width:100%;
+}
+
+.see-all-2 #slideshow .slide,
+.see-all-3 #slideshow .slide ,
+.see-all-5 #slideshow .slide {
+    margin-bottom:0.1em;
+}
+
+.see-all-3 #slideshow .slide {
+    vertical-align:top;
+    margin-right:0.1em;
+    width:calc(33.333% - 0.3em);
+    display:inline-block;
+}
+
+.see-all-2 #slideshow .slide {
+    vertical-align:top;
+    margin-right:0.1em;
+    width:calc(25% - 0.4em);
+    display:inline-block;
+}
+
+.see-all-5 #slideshow .slide {
+    vertical-align:top;
+    margin-right:0.1em;
+    width:calc(50% - 0.2em);
+    display:inline-block;
+}
+
+@media only screen and (max-width: 900px) {
+    #slideshow {
+        width:calc(100% - 0em)!important;
+    }
+
+    .see-all-2 #slideshow,.see-all-5 #slideshow, .see-all-3 #slideshow {
+        width:calc(100% - 0em)!important;
+    }
+  }

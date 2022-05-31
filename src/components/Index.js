@@ -1,7 +1,5 @@
 import React from 'react';
-import MorseBanner from './layouts/MorseBanner';
 import MainFrame from './MainFrame';
-import Lab from './Lab';
 import Profile from './Profile';
 
 function Index() {
@@ -13,25 +11,19 @@ function Index() {
       <Profile />
     );
   }
-  else if (windowlink.includes("/?code") > 0) {
-    return (
-      <MainFrame kind="code" />
-    );
-  }
   else if (windowlink.includes("/?art") > 0) {
-    return (
-      <MainFrame kind="art" />
-    );
-  }
-  else if (windowlink.includes("/?lab") > 0) {
-    return (
-      <Lab />
-    );
+      return (
+        <div>
+        <div id="banner">Robin is an <b>artist</b> who works with text, sound, space, and computation.</div>
+        <MainFrame kind="art" />
+        </div>
+      )
   }
   return (
-      <div id="banner">
-          <MorseBanner />
-     </div>
+    <div>
+      <div id="banner">Robin is an <b>engineer</b> who has worked in software, research, and media art.</div>
+      <MainFrame kind="code" />
+    </div>
   );
   
 }
