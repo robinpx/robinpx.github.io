@@ -4,14 +4,13 @@ function Profile() {
     return (
             <article id="profile">
             <div id="about">
-            <p>Robin L. is an engineer and artist who works with text, sound, space, and computation.</p>
-            <p>Her personal research interests revolve in poetic computation, politics of love and memory, 
-            and the intersection of spirituality, art, and the sciences. She places value on intention, care, and community-building in her work.</p>
+            <p>Robin Luo is a software developer, engineer, and artist who works with text, sound, space, and computation.</p>
+            <p>Her artistic practice recontextualizes the intersections of math, science, and computation as a site for personal, spiritual, and political transformation. As a developer, she is interested in crafting sustainable, complex, and visual systems that prioritize connection and collaboration.</p>
 
             <p>She completed her B.S. in Computer Science at New York University Shanghai. Her capstone
             was on the Complexity and Demonstration of Quantum Supremacy Algorithms.</p> 
 
-            <p>Previously, she worked with <a href="http://www.naimark.net/">Michael Naimark</a> on VR Research, programmed at the media art lab for <a href="https://vjnks.com/">Vytas Jankauskas</a> at <a href="http://www.chronusartcenter.org/en/">Chronus Art Center</a>, and was a Studio Assistant to <a href="https://capsuleshanghai.com/artists/39-alice-wang/overview/">Alice Wang</a>. She currently works on frontend development at Beijing-based company MetaApp.</p>
+            <p>Previously, she has programmed at the media art lab for <a href="https://vjnks.com/">Vytas Jankauskas</a> at <a href="http://www.chronusartcenter.org/en/">Chronus Art Center</a>, was a Studio Assistant to <a href="https://capsuleshanghai.com/artists/39-alice-wang/overview/">Alice Wang</a>, and was a frontend developer intern at Chinese company MetaApp.</p>
             </div>
             <div id="misc">
                 <h3>Exhibitions</h3>

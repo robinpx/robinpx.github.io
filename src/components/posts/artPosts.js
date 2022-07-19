@@ -3,51 +3,53 @@ let artPosts = [
         id:"d1",
         title:"Computational Sound Poetry",
         year:"2022",
+        desc: "",
         images:["/art/computational-poetics.png"],
         genre: ["Writing, Sound, Computation"],
         tags: ["React, JavaScript, HTML/CSS, Logic Pro X, Poetry"],
         links: [["https://robinpx.github.io/computational-sound-poetry", "Website"]],
-        slidelayout: "trad-code",
+        slidelayout: "trad",
         cardlayout: "single-7"
     },
     {
         id: "c1",
         title: "Cuneiforms",
         year: "2022",
-        images: ["/art/scratches-drawing.jpeg","/art/petroglyph.jpeg"],
-        desc: [""],
+        images: ["/art/scratches-drawing.jpeg"],
+        desc: "",
         genre: ["Drawing, Photo (Overlay)"],
         slidelayout: "visible",
-        cardlayout: "see-all-5"
+        cardlayout: "single"
     },
-    {
-        id: "c4",
-        title: "Delicate Frame, Traces",
-        year: "2022, 2019",
-        images: ["/art/delicate-frame.jpeg", "/art/traces.jpeg"],
-        genre: ["Photo"],
-        slidelayout: "trad",
-        cardlayout: "single-7"
-    },
+    // {
+    //     id: "c4",
+    //     title: "Delicate Frame, Traces",
+    //     year: "2022, 2019",
+    //     images: ["/art/delicate-frame.jpeg", "/art/traces.jpeg"],
+    //     genre: ["Photo"],
+    //     slidelayout: "trad",
+    //     cardlayout: "single-7"
+    // },
     {
         id: "c2",
         title: "Pressed Image",
         year: "2022",
+        desc: "",
         images: ["/art/pressed-image.jpeg"],
         genre: ["Photo (Overlay)"],
-        tags: [],
         slidelayout: "trad",
-        cardlayout: "single-7"
+        cardlayout: "single"
     },
     {
         id: "bw",
         title: "Movement Studies",
         year: "2019-2021",
+        desc: "",
         images: ["/art/bw0.jpeg", "/art/bw1.jpg", "/art/bw2.jpg","/art/bw3.jpg"],
         genre: ["Photo"],
         slidelayout: "trad",
         cardlayout: "single"
-    },
+    }
     // {
     //     id: "b1",
     //     title: "ALTAR-3000",
@@ -76,17 +78,17 @@ let artPosts = [
     //     links: [["https://vjnks.com/works/unfamiliar-convenient-46", "Full Documentation"],["https://github.com/robinpx/chronus","GitHub"], ["https://vimeo.com/641369896?embedded=true&source=vimeo_logo&owner=17016014", "Vimeo"]],
     //     slidelayout: "trad",
     //     cardlayout: "pair-5-5"
-    // },
-    {
-        id: "nonsensical",
-        title: "Nonsensical Issue #5 Poster",
-        year: "2021",
-        images: ["/art/nonsensical.jpg"],
-        desc: ["Issue #5 Poster"],
-        genre: ["Design"],
-        links: [["https://nonsensical.org/", "Website"]],
-        slidelayout: "trad",
-        cardlayout: "single-7"
-    }
+    // // },
+    // {
+    //     id: "nonsensical",
+    //     title: "Nonsensical Issue #5 Poster",
+    //     year: "2021",
+    //     images: ["/art/nonsensical.jpg"],
+    //     desc: ["Issue #5 Poster"],
+    //     genre: ["Design"],
+    //     links: [["https://nonsensical.org/", "Website"]],
+    //     slidelayout: "trad",
+    //     cardlayout: "single-7"
+    // }
 ];
 export default(artPosts);

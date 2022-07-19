@@ -2,10 +2,8 @@
     /* overflow:scroll;
     position:fixed;
     height:100vh; */
-    padding-bottom:4em;
     z-index:-1;
     transition:0.5s;
-    text-align:center;
 }
 
 /* #cards:first-child {
@@ -14,39 +12,25 @@
 } */
 
 #cards .card-container {
-    padding:1em 1em 1.5em 1em;
+    padding:1.5em 1.5em;
     border-bottom:1px solid #ccc;
 }
 
-.single .info, .single-7 .info {
-    font-size:0.8em;
-    margin-top:1em;
+.card-meta .tags {
+    margin-right:1em;
+    padding-bottom:1.5em;
 }
 
-.info .tags {
-    font-size:0.85em;
+.card-meta .links a {
     margin-right:1em;
 }
 
-.info .tags, .info a {
-    display:inline-block;
-}
-
-.single .info a, .single-7 .info a {
-    margin-left:1em;
-}
-
-/* 
-#cards:last-child {
-    border-left:1px solid black;
-    margin-top:0.25em;
-    padding-right:calc(4em);
-    width:calc(55% + 2em);
-    margin-left:calc(50% - 2em);
-} */
+#cards .card-container:last-child {
+    border-bottom:0;
+} 
 
 .single #slideshow, .single-7 #slideshow {
-    margin:0 auto;
+    /* margin:0 auto; */
 }
 
 .single #slideshow {
@@ -66,13 +50,35 @@
     width:30%;
 }
 
-.card-content {
-    margin-bottom:1em;
-    font-size:0.75em;
+.card-content, .card-meta {
+    font-size:0.9em;
 }
 
-.card-content .year, .card-content .genre {
+.tags, .links {
+    display:inline-block;
+}
+
+.card-meta .tags {
+    font-size:0.9em;
+    width:55%;
     margin-left:1em;
+}
+
+.card-meta .links {
+    vertical-align:top;
+}
+
+.card-info {
+    width:70%;
+}
+
+.card-info .card-desc {
+    margin:1em 0em;
+}
+
+.card-content .year, .card-content .title {
+    padding-right:1em;
+    margin-right:1em;
 }
 
 .see-all-3 #slideshow, .see-all-2 #slideshow, .see-all-5 #slideshow {
@@ -106,12 +112,22 @@
     display:inline-block;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
     #slideshow {
         width:calc(100% - 0em)!important;
     }
 
     .see-all-2 #slideshow,.see-all-5 #slideshow, .see-all-3 #slideshow {
         width:calc(100% - 0em)!important;
+    }
+
+    .card-info {
+        float:none;
+        width:100%;
+        margin-top:0;
+    }
+
+    .single-7 #slideshow {
+        margin-left:0;
     }
   }

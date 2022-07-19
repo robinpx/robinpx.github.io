@@ -9,12 +9,15 @@ function Header() {
     if (windowlink.includes("/?profile") > 0) {
       setActive(["","","active"]);
     }
-    else if (windowlink.includes("/?art") > 0) {
+    else if (windowlink.includes("/?other") > 0) {
       setActive(["","active",""]);
+    }
+    else if (windowlink.includes("/?work") > 0) {
+      setActive(["active","",""]);
     }
     else {
       if (windowlink.includes("/") > 0) {
-        setActive(["active","",""]);
+        setActive(["","",""]);
       }
     }
   }, [setActive]);
@@ -22,16 +25,16 @@ function Header() {
   return (
     <header>
       <div id="title">
-        <h1><a href="/"><code>*</code> robin</a></h1>
+        <h1><a href="/"><code>*</code> Robin Luo</a></h1>
         </div>
       <div id="eng">
-        <a href="/" className={active[0]}>Engineering</a>
+        <a href="/?work" className={active[0]}>Work</a>
       </div>
       <div id="art">
-        <a href="/?art" className={active[1]}>Art</a>
+        <a href="/?other" className={active[1]}>Other</a>
       </div>
       <div id="nav">
-          <a href="/?profile" className={active[2]}>Info</a>
+          <a href="/?profile" className={active[2]}>Profile</a>
       </div>
     </header>
   );

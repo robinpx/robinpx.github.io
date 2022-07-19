@@ -11,21 +11,27 @@ function Index() {
       <Profile />
     );
   }
-  else if (windowlink.includes("/?art") > 0) {
+  else if (windowlink.includes("/?other") > 0) {
       return (
         <div>
-        <div id="banner">Robin is an <b>artist</b> who works with text, sound, space, and computation.</div>
+        {/* <div id="banner">Robin Luo is an <b>artist</b> who works with text, sound, space, and computation.</div> */}
         <MainFrame kind="art" />
         </div>
       )
   }
-  return (
+  else if (windowlink.includes("/?work") > 0) {
+    return (
     <div>
-      <div id="banner">Robin is an <b>engineer</b> who has worked in software, research, and media art.</div>
+      {/* <div id="banner">Robin Luo is a software <b>engineer</b> who has worked in research, and media art.</div> */}
       <MainFrame kind="code" />
     </div>
+    )
+  }
+  return (
+    <div>
+      <div id="banner">Robin Luo is a <b>software developer</b> and <b>artist</b> based in the New York City area.</div>
+    </div>
   );
-  
 }
 
 export default Index;
