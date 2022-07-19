@@ -38,7 +38,7 @@ let artPosts = [
         images: ["/art/pressed-image.jpeg"],
         genre: ["Photo (Overlay)"],
         slidelayout: "trad",
-        cardlayout: "single"
+        cardlayout: "single-7"
     },
     {
         id: "bw",

@@ -50,8 +50,8 @@
     width:30%;
 }
 
-.card-content, .card-meta {
-    font-size:0.9em;
+.card-meta {
+    font-size:0.95em;
 }
 
 .tags, .links {
@@ -69,7 +69,7 @@
 }
 
 .card-info {
-    width:70%;
+    width:65%;
 }
 
 .card-info .card-desc {
