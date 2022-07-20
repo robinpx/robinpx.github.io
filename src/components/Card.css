@@ -80,8 +80,7 @@
 }
 
 .card-content .year, .card-content .title {
-    padding-right:1em;
-    margin-right:1em;
+    margin-right:1.5em;
 }
 
 .see-all-3 #slideshow, .see-all-2 #slideshow, .see-all-5 #slideshow {
