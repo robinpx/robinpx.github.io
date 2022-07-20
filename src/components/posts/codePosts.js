@@ -80,7 +80,7 @@ let codePosts = [
         desc: "I developed the robotics and web scraping program for a media artist's AI Prophetic Robot Arm.",
         genre: ["Programming"],
         tags: ["Artist Collaboration, Python, C++, ROS, Selenium, OOP"],
-        links: [["https://github.com/robinpx/chronus", "GitHub"], ["https://vjnks.com/works/altar-3000", "See More"]],
+        links: [["https://github.com/robinpx/chronus", "GitHub"], ["https://vjnks.com/works/altar-3000", "Docs"]],
         slidelayout: "trad",
         cardlayout: "single"
     },
