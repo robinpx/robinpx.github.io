@@ -114,7 +114,8 @@ nav a {
 }
 
 #cards .card-container, article, #banner {
-  animation:load-in 0.6s linear;
+  opacity:0;
+  animation:load-in 0.6s linear forwards 0.7s;
 }
 
 footer {
