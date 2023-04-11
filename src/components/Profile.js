@@ -5,12 +5,13 @@ function Profile() {
             <article id="profile">
             <div id="about">
             <p>Robin Luo is a software developer, engineer, and artist who works with text, sound, space, and computation.</p>
-            <p>Her artistic practice recontextualizes the intersections of math, science, and computation as a site for personal, spiritual, and political transformation. As a developer, she is interested in crafting sustainable, complex, and visual systems that prioritize connection and collaboration.</p>
+            <p>Her artistic practice recontextualizes the intersections of math, science, and computation as a site for personal, spiritual, and political transformation. As a developer, she is interested in crafting sustainable visual systems that prioritize connection and collaboration.</p>
 
             <p>She completed her B.S. in Computer Science at New York University Shanghai. Her capstone
             was on the Complexity and Demonstration of Quantum Supremacy Algorithms.</p> 
 
-            <p>Previously, she has programmed at the media art lab for <a href="https://vjnks.com/">Vytas Jankauskas</a> at <a href="http://www.chronusartcenter.org/en/">Chronus Art Center</a>, was a Studio Assistant to <a href="https://capsuleshanghai.com/artists/39-alice-wang/overview/">Alice Wang</a>, and was a frontend developer intern at Chinese company MetaApp.</p>
+            <p>Previously, she has programmed at the media art lab for <a href="https://vjnks.com/">Vytas Jankauskas</a> at <a href="http://www.chronusartcenter.org/en/">Chronus Art Center</a>, was a Studio Assistant to <a href="https://capsuleshanghai.com/artists/39-alice-wang/overview/">Alice Wang</a>, a frontend developer intern at Chinese company MetaApp, and
+            a Frontend Software Engineer Apprentice at <a href="https://www.annalect.com/">Annalect</a>. She currently is a Coding Lead at <a href="https://odyxxey.com/">odyXxey</a>.</p>
             </div>
             <div id="misc">
                 <h3>Exhibitions</h3>

@@ -1,5 +1,29 @@
 let codePosts = [
     {
+        id: "a3",
+        title: "odyXxey",
+        year: "2022-",
+        desc: "I am the Coding Lead at odyXxey, working closely with a designer and founder to develop the new website (ongoing).",
+        images: ["/code/odyxxey.png"],
+        genre: ["Full Stack"],
+        tags: ["Next.js, HTML/CSS, React, git, Vercel, Shopify Storefront API, Soundcloud API, Sanity.io"],
+        links: [["https://odyxxey.vercel.app", "Website"]],
+        slidelayout: "trad",
+        cardlayout: "single-7"
+    },
+    {
+        id: "a4",
+        title: "Annalect",
+        year: "2022-2023",
+        desc: "I was a Frontend Software Engineer Apprentice working with Senior Frontend Software Engineers and manager to develop a campaign analysis web application for Meta.",
+        images: ["/code/annalect.png"],
+        genre: ["Frontend"],
+        tags: ["HTML/CSS, Lit, Bitbucket, Jira, API, JavaScript"],
+        links: [["https://www.annalect.com/", "Company Website"]],
+        slidelayout: "trad",
+        cardlayout: "single-7"
+    },
+    {
         id: "a1",
         title: "P12",
         year: "2022",
