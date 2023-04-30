@@ -3,11 +3,11 @@ let codePosts = [
         id: "a3",
         title: "odyXxey",
         year: "2022-",
-        desc: "I am the Coding Lead at odyXxey, working closely with a designer and founder to develop the new website (ongoing).",
+        desc: "I am the Coding Lead at odyXxey, working closely with a designer and founder to develop the new website with a radio station, event calendar, and archive.",
         images: ["/code/odyxxey.png"],
         genre: ["Full Stack"],
         tags: ["Next.js, HTML/CSS, React, git, Vercel, Shopify Storefront API, Soundcloud API, Sanity.io"],
-        links: [["https://odyxxey.vercel.app", "Website"]],
+        links: [["https://odyxxey.com", "Website"]],
         slidelayout: "trad",
         cardlayout: "single-7"
     },
