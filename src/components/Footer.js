@@ -4,8 +4,8 @@ function Footer() {
 
     return (
 	<footer>
-	<div><a href="https://github.com/robinpx">GitHub</a></div>
-	<div>last updated: April 2023 </div>
+	{/* <div><a href="https://github.com/robinpx">GitHub</a></div> */}
+	
 	</footer>
     );
 }

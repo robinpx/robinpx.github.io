@@ -4,12 +4,12 @@ let codePosts = [
         title: "odyXxey",
         year: "2022-",
         desc: "I am the Coding Lead at odyXxey, working closely with a designer and founder to develop the new website with a radio station, event calendar, and archive.",
-        images: ["/code/odyxxey.png"],
+        images: ["/code/odyxxey-1.png","/code/odyxxey-2.png", "/code/odyxxey-3.png", "/code/odyxxey-4.png"],
         genre: ["Full Stack"],
-        tags: ["Next.js, HTML/CSS, React, git, Vercel, Shopify Storefront API, Soundcloud API, Sanity.io"],
+        tags: ["Next.js, HTML/CSS, React, git, Vercel, Shopify Storefront API, Soundcloud API, Airtime Pro API, Sanity.io"],
         links: [["https://odyxxey.com", "Website"]],
-        slidelayout: "trad",
-        cardlayout: "single-7"
+        slidelayout: "trad-code",
+        cardlayout: "single"
     },
     {
         id: "a4",
@@ -84,30 +84,30 @@ let codePosts = [
         slidelayout: "trad-code",
         cardlayout: "single"
     },
-    {
-        id: "b1",
-        title: "Complexity and Demonstration of Quantum Supremacy Algorithms",
-        year: "2022",
-        images: ["/code/qiskit.jpg"],
-        desc: "I researched and developed a program to prove quantum supremacy algorithms with Qiskit, IBM Q, and Python for my senior capstone.",
-        genre: ["Research, Programming"],
-        tags: ["Group Project, Python, Qiskit, IBM Q, Jupyter Notebook"],
-        links: [["https://github.com/robinpx/quantum-algorithms", "GitHub"], ["/code/capstone.pdf", "Report"]],
-        slidelayout: "trad",
-        cardlayout: "single-7"
-    },
-    {
-        id: "b2",
-        title: "ALTAR-3000",
-        year: "2021",
-        images: ["/code/altar3000-1.jpg"],
-        desc: "I developed the robotics and web scraping program for a media artist's AI Prophetic Robot Arm.",
-        genre: ["Programming"],
-        tags: ["Artist Collaboration, Python, C++, ROS, Selenium, OOP"],
-        links: [["https://github.com/robinpx/chronus", "GitHub"], ["https://vjnks.com/works/altar-3000", "Docs"]],
-        slidelayout: "trad",
-        cardlayout: "single"
-    },
+    // {
+    //     id: "b1",
+    //     title: "Complexity and Demonstration of Quantum Supremacy Algorithms",
+    //     year: "2022",
+    //     images: ["/code/qiskit.jpg"],
+    //     desc: "I researched and developed a program to prove quantum supremacy algorithms with Qiskit, IBM Q, and Python for my senior capstone.",
+    //     genre: ["Research, Programming"],
+    //     tags: ["Group Project, Python, Qiskit, IBM Q, Jupyter Notebook"],
+    //     links: [["https://github.com/robinpx/quantum-algorithms", "GitHub"], ["/code/capstone.pdf", "Report"]],
+    //     slidelayout: "trad",
+    //     cardlayout: "single-7"
+    // },
+    // {
+    //     id: "b2",
+    //     title: "ALTAR-3000",
+    //     year: "2021",
+    //     images: ["/code/altar3000-1.jpg"],
+    //     desc: "I developed the robotics and web scraping program for a media artist's AI Prophetic Robot Arm.",
+    //     genre: ["Programming"],
+    //     tags: ["Artist Collaboration, Python, C++, ROS, Selenium, OOP"],
+    //     links: [["https://github.com/robinpx/chronus", "GitHub"], ["https://vjnks.com/works/altar-3000", "Docs"]],
+    //     slidelayout: "trad",
+    //     cardlayout: "single"
+    // },
 ];
 
 export default(codePosts);

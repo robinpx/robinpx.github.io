@@ -15,6 +15,8 @@ function Card(props) {
 
   return post !== -1 ? (
     <div className={"card-container " + post["cardlayout"]}>
+
+    <Slideshow images={post["images"]} layout={post["slidelayout"]} />
         <div className="card-info">
           <div className="card-content">
               <span className="year">{post["year"]} </span>
@@ -37,8 +39,6 @@ function Card(props) {
             : <React.Fragment/>}
           </div> 
         </div>
-
-        <Slideshow images={post["images"]} layout={post["slidelayout"]} />
         
     </div>
     

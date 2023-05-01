@@ -223,9 +223,9 @@ a:not(header a) {
 
 
 #banner {
-  padding:1em 2em;
+  padding:1em 3em;
+  margin-bottom:2em;
   line-height:110%;
-  font-size:1.3em;
 }
 
 @keyframes load-in {

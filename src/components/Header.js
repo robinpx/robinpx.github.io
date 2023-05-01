@@ -35,9 +35,9 @@ function Header() {
   return (
     <header>
       <div id="title">
-        <h1><a href="/"><code>*</code> Robin Luo</a></h1>
+        <h1><a href="/"><code>*</code></a></h1>
       </div>
-      <div id="nav-reg">
+      {/* <div id="nav-reg">
           <a href="/?work" className={active[0]}>Work</a>
           <a href="/?other" className={active[1]}>Other</a>
           <a href="/?profile" className={active[2]}>Profile</a>
@@ -51,7 +51,7 @@ function Header() {
           <a href="/?other" className={active[1]}>Other</a>
           <a href="/?profile" className={active[2]}>Profile</a>
       </div>
-      </div>
+      </div> */}
     </header>
   );
 }
