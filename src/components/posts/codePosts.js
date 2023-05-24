@@ -56,7 +56,7 @@ let codePosts = [
         "/code/auxnow-4.jpg", "/code/auxnow-5.jpg", "/code/auxnow-6.jpg","/code/auxnow-7.jpg","/code/auxnow-8.jpg"],
         genre: ["Full Stack"],
         tags: ["Self-taught, React, Node.js, Spotify API"],
-        links: [["https://github.com/robinpx/auxnow", "GitHub"], ["https://auxnow.herokuapp.com/", "Website"]],
+        links: [["https://github.com/robinpx/auxnow", "GitHub"]],
         slidelayout: "trad-code",
         cardlayout: "single"
     },
