@@ -12,7 +12,7 @@
 } */
 
 #cards .card-container {
-    padding:1em 1em 3em 2.9em;
+    padding:0em 1em 2em 2.9em;
 }
 
 .card-meta .tags {
@@ -62,7 +62,6 @@
 }
 
 .card-meta .tags {
-    font-size:0.8em;
     width:55%;
     margin-left:1em;
 }
@@ -115,6 +114,29 @@
     display:inline-block;
 }
 
+#slideshow #slides {
+    overflow:hidden;
+  border-radius:0.5em!important;
+}
+
+#slideshow img {
+    transition:0.5s;
+}
+
+#slideshow:hover img {
+    opacity:0.8;
+    transform:scale(1.05);
+    transition:0.5s;
+}
+
+#slideshow {
+  background:transparent!important;
+}
+
+.trad .slide img {
+  border-radius:0.5em!important;
+}
+
 @media only screen and (max-width: 1000px) {
     #slideshow {
         width:calc(100% - 0em)!important;
@@ -131,7 +153,6 @@
     .card-info {
         float:none;
         width:100%;
-        margin-top:0;
     }
 
     .single-7 #slideshow {

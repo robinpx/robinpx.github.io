@@ -1,5 +1,17 @@
 let codePosts = [
     {
+        id: "a5",
+        title: "Special Offer",
+        year: "2023-",
+        desc: "I work as a Frontend Software Engineer Intern, working on sites like UNIF, dis.art, MFG, and internal boilerplates.",
+        images: ["/code/special-offer.png"],
+        genre: ["Frontend"],
+        tags: ["Nuxt.js, HTML/CSS, Vue, git, Vercel, Shopify Liquid, Sanity.io"],
+        links: [["https://www.specialoffer.inc/", "Company Website"]],
+        slidelayout: "trad",
+        cardlayout: "single-7"
+    },
+    {
         id: "a3",
         title: "odyXxey",
         year: "2022-",
