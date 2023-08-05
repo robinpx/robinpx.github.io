@@ -165,9 +165,11 @@
   }
 
 
-@media screen and (max-width: 280px) {  
-    .card-info .tags {
+@media screen and (max-width: 769px) {  
+    .card-meta .tags {
+        display:block!important;
         margin-left:0;
+        margin-top:1em;
         width:100%;
     }
 }

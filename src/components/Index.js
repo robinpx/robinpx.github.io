@@ -29,7 +29,8 @@ function Index() {
   }
   return (
     <div>
-      <div id="banner">Robin Luo is a <b>Frontend Software Engineer</b> based in Queens, NY. <br />They are currently seeking part-time and full-time opportunities.</div>
+      <div id="banner">Robin Luo is a <b>Frontend Software Engineer</b> based in Queens, NY. <br />They are currently seeking part-time and full-time opportunities.
+      </div>
       <MainFrame kind="code" />
     </div>
   );
