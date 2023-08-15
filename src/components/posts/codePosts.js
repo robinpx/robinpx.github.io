@@ -3,11 +3,11 @@ let codePosts = [
         id: "a5",
         title: "Special Offer",
         year: "2023-",
-        desc: "I work as a Frontend Software Engineer Intern, working on sites like UNIF, dis.art, MFG, and internal boilerplates.",
+        desc: "I work as a Frontend Software Engineer Intern at a creative tech company, working on sites like UNIF, dis.art, MFG, Laura Lombardi, and internal boilerplates.",
         images: ["/code/special-offer.png"],
         genre: ["Frontend"],
         tags: ["Nuxt.js, HTML/CSS, Vue, git, Vercel, Shopify Liquid, Sanity.io"],
-        links: [["https://www.specialoffer.inc/", "Company Website"]],
+        links: [["https://www.specialoffer.inc/", "Special Offer Website"], ["https://unifclothing.com", "UNIF"], ["https://www.lauralombardi.com/","Laura Lombardi"], ["https://dis.art/", "dis"], ["https://www.majorfood.com/","MFG"]],
         slidelayout: "trad",
         cardlayout: "single-7"
     },
@@ -15,7 +15,7 @@ let codePosts = [
         id: "a3",
         title: "odyXxey",
         year: "2022-",
-        desc: "I am the Coding Lead at odyXxey, working closely with a designer and founder to develop the new website with a radio station, event calendar, and archive.",
+        desc: "I am the Coding Lead at odyXxey, working closely with a designer and founder to develop the new website with a radio station, e-commerce store, event calendar, and archive.",
         images: ["/code/odyxxey-1.png","/code/odyxxey-2.png", "/code/odyxxey-3.png", "/code/odyxxey-4.png"],
         genre: ["Full Stack"],
         tags: ["Next.js, HTML/CSS, React, git, Vercel, Shopify Storefront API, Soundcloud API, Airtime Pro API, Sanity.io"],
@@ -31,7 +31,7 @@ let codePosts = [
         images: ["/code/annalect.png"],
         genre: ["Frontend"],
         tags: ["HTML/CSS, Lit, Bitbucket, Jira, API, JavaScript"],
-        links: [["https://www.annalect.com/", "Company Website"]],
+        links: [["https://www.annalect.com/", "Annalect Website"]],
         slidelayout: "trad",
         cardlayout: "single-7"
     },
@@ -92,34 +92,34 @@ let codePosts = [
         images: ["/code/boombox.jpg", "/code/boombox2.jpg"],
         genre: ["Frontend"],
         tags: ["Self-taught, HTML/CSS, JavaScript, jQuery, Tumblr API"],
-        links: [["https://github.com/robinpx/boombox", "GitHub"], ["https://robinpx.github.io/boombox", "Live"]],
+        links: [["https://github.com/robinpx/boombox", "GitHub"], ["https://robinpx.github.io/boombox", "Website"]],
         slidelayout: "trad-code",
         cardlayout: "single"
     },
-    // {
-    //     id: "b1",
-    //     title: "Complexity and Demonstration of Quantum Supremacy Algorithms",
-    //     year: "2022",
-    //     images: ["/code/qiskit.jpg"],
-    //     desc: "I researched and developed a program to prove quantum supremacy algorithms with Qiskit, IBM Q, and Python for my senior capstone.",
-    //     genre: ["Research, Programming"],
-    //     tags: ["Group Project, Python, Qiskit, IBM Q, Jupyter Notebook"],
-    //     links: [["https://github.com/robinpx/quantum-algorithms", "GitHub"], ["/code/capstone.pdf", "Report"]],
-    //     slidelayout: "trad",
-    //     cardlayout: "single-7"
-    // },
-    // {
-    //     id: "b2",
-    //     title: "ALTAR-3000",
-    //     year: "2021",
-    //     images: ["/code/altar3000-1.jpg"],
-    //     desc: "I developed the robotics and web scraping program for a media artist's AI Prophetic Robot Arm.",
-    //     genre: ["Programming"],
-    //     tags: ["Artist Collaboration, Python, C++, ROS, Selenium, OOP"],
-    //     links: [["https://github.com/robinpx/chronus", "GitHub"], ["https://vjnks.com/works/altar-3000", "Docs"]],
-    //     slidelayout: "trad",
-    //     cardlayout: "single"
-    // },
+    {
+        id: "b1",
+        title: "Complexity and Demonstration of Quantum Supremacy Algorithms",
+        year: "2022",
+        images: ["/code/qiskit.jpg"],
+        desc: "I researched and developed a program to prove quantum supremacy algorithms with Qiskit, IBM Q, and Python for my senior capstone.",
+        genre: ["Research, Programming"],
+        tags: ["Group Project, Python, Qiskit, IBM Q, Jupyter Notebook"],
+        links: [["https://github.com/robinpx/quantum-algorithms", "GitHub"], ["/code/capstone.pdf", "Report"]],
+        slidelayout: "trad",
+        cardlayout: "single-7"
+    },
+    {
+        id: "b2",
+        title: "ALTAR-3000",
+        year: "2021-2022",
+        images: ["/code/altar3000-1.jpg"],
+        desc: "I developed the robotics and web scraping program for a media artist's AI Prophetic Robot Arm.",
+        genre: ["Programming"],
+        tags: ["Artist Collaboration, Python, C++, ROS, Selenium, OOP"],
+        links: [["https://github.com/robinpx/chronus", "GitHub"], ["https://vjnks.com/works/altar-3000", "Documentation"]],
+        slidelayout: "trad",
+        cardlayout: "single"
+    },
 ];
 
 export default(codePosts);

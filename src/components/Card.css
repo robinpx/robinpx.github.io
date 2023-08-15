@@ -24,6 +24,10 @@
     margin-right:1em;
 }
 
+.card-meta .links {
+    width:33.3333%;
+}
+
 #cards .card-container:last-child {
     border-bottom:0;
 } 
@@ -62,12 +66,14 @@
 }
 
 .card-meta .tags {
-    width:55%;
-    margin-left:1em;
+    width:100%;
+    /* margin-left:1em; */
 }
 
 .card-meta .links {
-    vertical-align:top;
+    margin-bottom:1em;
+    /* vertical-align:top; */
+    width:100%;
 }
 
 .card-info {
@@ -162,6 +168,10 @@
         display:block;
         margin-top:0.5em;
     }
+
+    .card-meta .links {
+        width:100%;
+    }
   }
 
 
@@ -170,6 +180,10 @@
         display:block!important;
         margin-left:0;
         margin-top:1em;
+        width:100%;
+    }
+
+    .card-meta .links {
         width:100%;
     }
 }
