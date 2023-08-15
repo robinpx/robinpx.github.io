@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Arial Narrow";
+  src: url("https://db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.eot");
+  src: url("https://db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.svg#Arial Narrow")format("svg");
+}
+
 * {
   box-sizing:border-box;
   margin:0;
