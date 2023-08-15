@@ -37,6 +37,7 @@ function Header() {
       <div id="title">
         <h1><a href="/"><code>*</code></a></h1>
       </div>
+      <h1 id="contact"><a href="mailto:robin.rb.luo@gmail.com">Contact</a></h1>
       {/* <div id="nav-reg">
           <a href="/?work" className={active[0]}>Work</a>
           <a href="/?other" className={active[1]}>Other</a>

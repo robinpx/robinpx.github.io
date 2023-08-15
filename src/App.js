@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/Header';
 import Index from './components/Index';
 import Footer from './components/Footer';
+import MorseBanner from './components/layouts/MorseBanner';
 
 function App() {
   return (

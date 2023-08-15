@@ -102,7 +102,7 @@ let codePosts = [
         year: "2022",
         images: ["/code/qiskit.jpg"],
         desc: "I researched and developed a program to prove quantum supremacy algorithms with Qiskit, IBM Q, and Python for my senior capstone.",
-        genre: ["Research, Programming"],
+        genre: ["Research"],
         tags: ["Group Project, Python, Qiskit, IBM Q, Jupyter Notebook"],
         links: [["https://github.com/robinpx/quantum-algorithms", "GitHub"], ["/code/capstone.pdf", "Report"]],
         slidelayout: "trad",
