@@ -3,11 +3,11 @@ let codePosts = [
         id: "a5",
         title: "Special Offer",
         year: "2023-",
-        desc: "I work as a Frontend Software Engineer Intern at a creative tech company, working on sites like UNIF, dis.art, Major Food Group, Laura Lombardi, Roses, and internal boilerplates.",
+        desc: "I work as a Frontend Software Engineer Intern at a creative tech company, working on sites like UNIF, dis, Major Food Group, Laura Lombardi, Roses, and internal boilerplates.",
         images: ["/code/special-offer.png"],
         genre: ["Frontend"],
         tags: ["Nuxt.js, HTML/CSS, Vue.js, git, Vercel, Shopify Liquid, Sanity.io"],
-        links: [["https://www.specialoffer.inc/", "Special Offer Website"], ["https://unifclothing.com", "UNIF"], ["https://www.lauralombardi.com/","Laura Lombardi"], ["https://dis.art/", "dis"], ["https://www.majorfood.com/","MFG"], ["https://www.rosesmetal.com/","Roses"]],
+        links: [["https://www.specialoffer.inc/", "Special Offer Website"], ["https://unifclothing.com", "UNIF"], ["https://www.lauralombardi.com/","Laura Lombardi"], ["https://dis.art/", "dis"], ["https://www.majorfood.com/","MFG"], ["https://rosesmetals.com/","Roses"]],
         slidelayout: "trad",
         cardlayout: "single-7"
     },
