@@ -27,7 +27,7 @@ let codePosts = [
         id: "a4",
         title: "Annalect",
         year: "2022-2023",
-        desc: "I was a Frontend Software Engineer Apprentice working with Senior Frontend Software Engineers and manager to develop a campaign analysis web application for Meta.",
+        desc: "I was a Frontend Software Engineer Apprentice working with Senior Frontend Software Engineers and the Director of Engineering to develop a campaign analysis web application for Meta.",
         images: ["/code/annalect.png"],
         genre: ["Frontend"],
         tags: ["HTML/CSS, Lit, Bitbucket, Jira, API, JavaScript"],
