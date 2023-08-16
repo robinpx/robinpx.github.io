@@ -22,21 +22,21 @@ function Slideshow(props) {
       }
   }, [images, setImages, props.images]);
 
-  if (props.layout !== "visible" && images.length > 1) {
+  if (images !== null && props.layout !== "visible" && images.length > 1) {
     return images !== -1 ? (
         <div id="slideshow" className={"multi " + props.layout}>
             <div id="slides" onClick={nextSlide}>
-                {images.map((img, i) => {
+                {images ? images.map((img, i) => {
                     return currentInd === i ? 
                     <div key={i} className='slide show'><img src={img} alt={"slide-"+i} /></div>
                     : <div key={i} className='slide hide'><img src={img} alt={"slide-"+i} /></div>
-                })}
+                }) : <></>}
             </div>
         </div>
     )  : <React.Fragment />;
   }
   else {
-    return images !== -1 ? (
+    return images !== null && images !== -1 ? (
         <div id="slideshow" className={props.layout}>
             <div id="slides">
             {images.map((img, i) => {

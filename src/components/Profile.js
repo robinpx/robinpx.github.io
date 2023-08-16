@@ -4,7 +4,29 @@ function Profile() {
     return (
             <article id="profile">
             <div id="about">
-            <p>Robin Luo is a software developer, engineer, and artist who works with text, sound, space, and computation.</p>
+            <p>
+            <h3>
+                Robin Luo works professionally as a <b>Software Engineer</b> and <b>Programmer</b>. 
+                They have worked with other artists, musicians, designers, and engineers through this practice.<br/>
+                They also work as an <b>Artist</b>, working with image, sound, and text under another moniker.
+            </h3>
+            </p>
+            <h3><b>Other Selected Works, Participation</b></h3>
+            <ul>
+                <li><a href="https://www.e-flux.com/journal/136/536828/leaving-the-earth/">e-flux</a>, 2023</li>
+                <li><a href="https://www.powerstationofart.com">Power Station of Art</a> (<a href="https://www.powerstationofart.com/whats-on/activities/a-project-of-current-art-education-in-art-colleges">Exhibition</a>, Workshop), 2022</li>
+                <li><a href="https://www.creativeapplications.net/openframeworks/altar-3000-an-ai-prophet-in-the-age-of-digestible-truths/">CreativeApplications</a>, 2022</li>
+                <li><a href="https://www.chronusartcenter.org/">Chronus Art Center</a>, 2021</li>
+                <li><a href="https://poetrysociety.org/poetry-in-motion#:~:text=Poetry%20in%20Motion%C2%AE%20is%20a%20public%20arts%20program%20that,of%20cities%20throughout%20the%20country.&text=In%20New%20York%20City%20the,Motion%20in%20New%20York%20City.">Poetry in Motion</a> (<a href="https://www.artsintransit.org/example-page-metrolines-2017/">Winner</a>), 2017</li>
+                
+            </ul>
+            <p>
+                <h3 id="edu"><b>NYU &mdash; Computer Science, B.S. 2022.</b></h3>
+            </p>
+            
+
+
+            {/* <p>Robin Luo is a software developer, engineer, and artist who works with text, sound, space, and computation.</p>
             <p>Her artistic practice recontextualizes the intersections of math, science, and computation as a site for personal, spiritual, and political transformation. As a developer, she is interested in crafting sustainable visual systems that prioritize connection and collaboration.</p>
 
             <p>She completed her B.S. in Computer Science at New York University Shanghai. Her capstone
@@ -30,9 +52,8 @@ function Profile() {
                 <ul>
                     <li><b>Quiltmaking Workshop</b> (Remote) &mdash; <a href="https://www.powerstationofart.com">Power Station of Art</a>, Shanghai, China. March 2022. </li>
                     <li><b>Continuous Line Drawing Workshop</b> (Remote) &mdash; Jinmei Dementia Center, Shanghai, China. April 2022. </li>
-                </ul>
+                </ul> */}
             </div>
-        
         </article>
         )
 }

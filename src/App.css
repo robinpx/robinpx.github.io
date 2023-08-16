@@ -169,11 +169,24 @@ blockquote {
   font-family:'Pontano Sans', Arial, Helvetica, sans-serif;
 }
 
+#banner a {
+  margin-left:0;
+  color:darkblue;
+  border-bottom:0;
+  text-decoration: none;
+}
+
 #profile {
-  max-width:70%;
-  margin-top:1em;
-  padding:0em 3em;
-  float:right;
+  margin-top:6em;
+  height:calc(100vh - 2em);
+  border-top:1px dotted #999;
+  max-width:100%;
+  padding:3em 4.5em;
+}
+
+#profile #edu {
+  position:absolute;
+  bottom:0;
 }
 
 #misc {
@@ -199,7 +212,10 @@ blockquote {
 
 #profile li {
   padding:0.5em 0em;
-  border-top:1px solid #ccc;
+}
+
+#about {
+  width:50%;
 }
 
 #content {
@@ -308,6 +324,9 @@ a:not(header a) {
 
   #cards {
     padding:0;
+  }
+  #about {
+    width:100%;
   }
 }
 
