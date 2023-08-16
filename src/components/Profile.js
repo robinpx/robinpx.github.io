@@ -7,8 +7,8 @@ function Profile() {
             <p>
             <h3>
                 Robin Luo works professionally as a <b>Software Engineer</b> and <b>Programmer</b>. 
-                They have worked with other artists, musicians, designers, and engineers through this practice.<br/>
-                They also work as an <b>Artist</b>, working with image, sound, and text under another moniker.
+                They have collaborated with other artists, musicians, designers, and engineers through this practice.<br/>
+                They also work as an <b>Artist</b>, using image, text, and sound under another moniker.
             </h3>
             </p>
             <h3><b>Other Selected Works, Participation</b></h3>
