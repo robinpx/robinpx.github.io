@@ -291,6 +291,9 @@ a:not(header a) {
 }
 
 @media screen and (max-width: 992px) { 
+  body {
+    font-size:calc(15px + 1vmin);
+  }
   #nav-mob {
     display:inline-block;
   }
@@ -303,7 +306,7 @@ a:not(header a) {
   }
 
   #banner {
-    padding:1em 0.5em 0em 0.5em;
+    padding:1.5em 0.5em 0em 0.5em;
   }
 
   #ascii {
@@ -315,7 +318,8 @@ a:not(header a) {
     max-width:100%;
     width:100%;
     min-width:100%;
-    padding:0em 1em;
+    padding:3em 1em;
+    margin-bottom:2em;
   }
 
   #content {
