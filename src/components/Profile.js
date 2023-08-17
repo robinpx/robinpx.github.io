@@ -7,7 +7,7 @@ function Profile() {
             <p>
             <h3>
                 Robin L. works professionally as a <b>Software Engineer</b> and <b>Programmer</b>. 
-                They have collaborated with other artists, musicians, designers, and engineers through this practice.<br/>
+                They have collaborated with other artists, musicians, designers, and engineers through this practice from Shanghai, New York, and London.<br/>
                 They also work as an <b>Artist</b>, using image, text, and sound under another moniker.
             </h3>
             </p>
@@ -23,8 +23,12 @@ function Profile() {
             </ul>
             <p>
                 <h3 id="edu">
-                    <b>NYU &mdash; Computer Science, B.S.</b> 
-                    <b> Interactive Media Arts, B.S. 2022.</b> 
+                    <div><b>NYU, 2022</b> &mdash;</div>
+                    <div><b>Computer Science, B.S.</b><br/>
+                    <b> Interactive Media Arts, B.S.</b> 
+                    </div>
+                    
+                    
                 </h3>
             </p>
             
