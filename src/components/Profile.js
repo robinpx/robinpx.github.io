@@ -11,13 +11,14 @@ function Profile() {
                 They also work as an <b>Artist</b>, using image, text, and sound under another moniker.
             </h3>
             </p>
-            <h3><b>Other Selected Works, Participation</b></h3>
+            <h3><b>Other Selected Works & Contributions</b></h3>
             <ul>
                 <li><a href="https://www.e-flux.com/journal/136/536828/leaving-the-earth/">e-flux</a>, 2023</li>
+                <li><a href="./code/capstone.pdf">Complexity and Demonstration of Quantum Supremacy Algorithms</a> (Capstone), 2022</li>
                 <li><a href="https://www.powerstationofart.com">Power Station of Art</a> (<a href="https://www.powerstationofart.com/whats-on/activities/a-project-of-current-art-education-in-art-colleges">Exhibition</a>, Workshop), 2022</li>
-                <li><a href="https://www.creativeapplications.net/openframeworks/altar-3000-an-ai-prophet-in-the-age-of-digestible-truths/">CreativeApplications</a>, 2022</li>
+                <li><a href="https://www.creativeapplications.net/openframeworks/altar-3000-an-ai-prophet-in-the-age-of-digestible-truths/">CreativeApplications.net</a>, 2022</li>
                 <li><a href="https://www.chronusartcenter.org/">Chronus Art Center</a>, 2021</li>
-                <li><a href="https://poetrysociety.org/poetry-in-motion#:~:text=Poetry%20in%20Motion%C2%AE%20is%20a%20public%20arts%20program%20that,of%20cities%20throughout%20the%20country.&text=In%20New%20York%20City%20the,Motion%20in%20New%20York%20City.">Poetry in Motion</a> (<a href="https://www.artsintransit.org/example-page-metrolines-2017/">Winner</a>), 2017</li>
+                <li><a href="https://poetrysociety.org/poetry-in-motion#:~:text=Poetry%20in%20Motion%C2%AE%20is%20a%20public%20arts%20program%20that,of%20cities%20throughout%20the%20country.&text=In%20New%20York%20City%20the,Motion%20in%20New%20York%20City.">Poetry in Motion</a> (Winner), 2017</li>
                 
             </ul>
             <p>

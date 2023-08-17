@@ -96,30 +96,30 @@ let codePosts = [
         slidelayout: "trad-code",
         cardlayout: "single"
     },
-    {
-        id: "b1",
-        title: "Complexity and Demonstration of Quantum Supremacy Algorithms",
-        year: "2022",
-        images: null,
-        desc: "I researched and developed a program to prove quantum supremacy algorithms with Qiskit, IBM Q, and Python for my senior capstone.",
-        genre: ["Research"],
-        tags: ["Group Project, Python, Qiskit, IBM Q, Jupyter Notebook"],
-        links: [["https://github.com/robinpx/quantum-algorithms", "GitHub"], ["/code/capstone.pdf", "Report"]],
-        slidelayout: "trad",
-        cardlayout: "single-7"
-    },
-    {
-        id: "b2",
-        title: "ALTAR-3000",
-        year: "2021-2022",
-        images: null,
-        desc: "I developed the robotics and web scraping program for a media artist's AI Prophetic Robot Arm.",
-        genre: ["Programming"],
-        tags: ["Artist Collaboration, Python, C++, ROS, Selenium, OOP"],
-        links: [["https://github.com/robinpx/chronus", "GitHub"], ["https://vjnks.com/works/altar-3000", "Documentation"]],
-        slidelayout: "trad",
-        cardlayout: "single"
-    },
+    // {
+    //     id: "b1",
+    //     title: "Complexity and Demonstration of Quantum Supremacy Algorithms",
+    //     year: "2022",
+    //     images: null,
+    //     desc: "I researched and developed a program to prove quantum supremacy algorithms with Qiskit, IBM Q, and Python for my senior capstone.",
+    //     genre: ["Research"],
+    //     tags: ["Group Project, Python, Qiskit, IBM Q, Jupyter Notebook"],
+    //     links: [["https://github.com/robinpx/quantum-algorithms", "GitHub"], ["/code/capstone.pdf", "Report"]],
+    //     slidelayout: "trad",
+    //     cardlayout: "single-7"
+    // },
+    // {
+    //     id: "b2",
+    //     title: "ALTAR-3000",
+    //     year: "2021-2022",
+    //     images: null,
+    //     desc: "I developed the robotics and web scraping program for a media artist's AI Prophetic Robot Arm.",
+    //     genre: ["Programming"],
+    //     tags: ["Artist Collaboration, Python, C++, ROS, Selenium, OOP"],
+    //     links: [["https://github.com/robinpx/chronus", "GitHub"], ["https://vjnks.com/works/altar-3000", "Documentation"]],
+    //     slidelayout: "trad",
+    //     cardlayout: "single"
+    // },
 ];
 
 export default(codePosts);
