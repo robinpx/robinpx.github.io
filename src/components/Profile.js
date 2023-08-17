@@ -22,7 +22,10 @@ function Profile() {
                 
             </ul>
             <p>
-                <h3 id="edu"><b>NYU &mdash; Computer Science, B.S. 2022.</b></h3>
+                <h3 id="edu">
+                    <b>NYU &mdash; Computer Science, B.S.</b> 
+                    <b> Interactive Media Arts, B.S. 2022.</b> 
+                </h3>
             </p>
             
 
