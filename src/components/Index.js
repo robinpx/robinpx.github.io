@@ -29,7 +29,7 @@ function Index() {
   // }
   return (
     <div>
-      <div id="banner">Robin L. is a <b>Frontend Software Engineer</b> based in Queens, NY. <br />They are currently seeking part-time and full-time opportunities. <a href="#profile">↓</a>
+      <div id="banner">Robin L. is a <b>Frontend Software Engineer</b> based in New York, NY. <br />They are currently seeking part-time and full-time opportunities. <a href="#profile">↓</a>
       </div>
       <MainFrame kind="code" />
       <Profile/>
